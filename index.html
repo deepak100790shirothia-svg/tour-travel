@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Anuraj Fleet Tour & Travels and HVAC Services">
+  <title>Anuraj Fleet | Tour & Travels | HVAC Services</title>
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="navbar">
+  <a href="#home" class="logo">
+    <img src="images/logo.jpeg" alt="Anuraj Fleet Logo">
+    <div>
+      <h2>Anuraj Fleet</h2>
+      <small>Tour & Travels | HVAC Services</small>
+    </div>
+  </a>
+
+  <button class="menu-toggle" id="menuToggle"
+    aria-label="Open menu" aria-expanded="false">
+    <i class="fa-solid fa-bars"></i>
+  </button>
+
+  <nav class="nav-menu" id="navMenu">
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#travel-services">Tour & Travels</a>
+    <a href="#hvac-services">HVAC Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact Us</a>
+  </nav>
+
+  <a class="btn phone-btn" href="tel:9560594831">
+    <i class="fa-solid fa-phone"></i> 9560594831
+  </a>
+</header>
+
+<main>
+  <!-- HERO SLIDER -->
+  <section class="hero" id="home">
+    <div class="slides">
+
+      <article class="slide active">
+        <img src="images/hero1.jpeg" alt="Tour and Travels">
+        <div class="hero-content">
+          <p class="eyebrow">WELCOME TO ANURAJ FLEET</p>
+          <h1>Travel Further<br><span>Stay Cooler</span></h1>
+          <p>Safe rides, memorable trips and dependable services.</p>
+          <a href="#tour-packages" class="btn">Plan Your Trip</a>
+          <a href="#hvac-services" class="btn btn-outline">HVAC Services</a>
+        </div>
+      </article>
+
+      <article class="slide">
+        <img src="images/hero2.jpg" alt="HVAC and AC services">
+        <div class="hero-content">
+          <p class="eyebrow">COOL COMFORT, RELIABLE SERVICE</p>
+          <h1>Expert <span>HVAC</span><br>Solutions</h1>
+          <p>AC installation, repair and maintenance.</p>
+          <a href="#hvac-services" class="btn">Explore Services</a>
+          <a href="#contact" class="btn btn-outline">Contact Us</a>
+        </div>
+      </article>
+
+      <article class="slide">
+        <img src="images/hero3.jpg" alt="Holiday destinations">
+        <div class="hero-content">
+          <p class="eyebrow">TRAVEL IN COMFORT</p>
+          <h1>Explore More.<br><span>Travel Better.</span></h1>
+          <p>Local trips, outstation journeys and family tours.</p>
+          <a href="#travel-services" class="btn">Our Travel Services</a>
+          <a href="#contact" class="btn btn-outline">Get a Quote</a>
+        </div>
+      </article>
+
+    </div>
+
+    <button class="slider-btn prev-btn" aria-label="Previous slide">
+      <i class="fa-solid fa-chevron-left"></i>
+    </button>
+    <button class="slider-btn next-btn" aria-label="Next slide">
+      <i class="fa-solid fa-chevron-right"></i>
+    </button>
+
+    <div class="slider-dots">
+      <button class="dot active" aria-label="Slide 1"></button>
+      <button class="dot" aria-label="Slide 2"></button>
+      <button class="dot" aria-label="Slide 3"></button>
+    </div>
+  </section>
+
+  <!-- SERVICES SUMMARY -->
+  <section class="section">
+    <div class="section-title">
+      <p class="eyebrow">OUR SERVICES</p>
+      <h2>Travel & HVAC — All in One Place</h2>
+      <p>Your trusted partner for travel and cooling solutions.</p>
+    </div>
+
+    <div class="service-grid">
+      <a href="#tour-packages" class="service-card">
+        <i class="fa-solid fa-plane-departure"></i>
+        <h3>Tour Packages</h3><p>Holiday destinations</p>
+      </a>
+      <a href="#vehicles" class="service-card">
+        <i class="fa-solid fa-car"></i>
+        <h3>Taxi Services</h3><p>Comfortable rides</p>
+      </a>
+      <a href="#hvac-services" class="service-card">
+        <i class="fa-solid fa-snowflake"></i>
+        <h3>AC Installation</h3><p>Home and commercial</p>
+      </a>
+      <a href="#hvac-services" class="service-card">
+        <i class="fa-solid fa-wrench"></i>
+        <h3>AC Repair</h3><p>Repair and maintenance</p>
+      </a>
+      <a href="#hvac-services" class="service-card">
+        <i class="fa-solid fa-building"></i>
+        <h3>HVAC Solutions</h3><p>Home and business</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div>
+      <p class="eyebrow">ABOUT ANURAJ FLEET</p>
+      <h2>Comfort on the Road.<br>Comfort at Home.</h2>
+      <p>
+        Anuraj Fleet Tour & Travels and HVAC Services offers travel
+        assistance, vehicle rentals, AC installation, repair and
+        maintenance. Contact us to discuss your requirements.
+      </p>
+      <a href="#contact" class="btn">Contact Our Team</a>
+    </div>
+    <img src="images/travel.jpeg" alt="Anuraj Fleet travel services">
+  </section>
+
+  <!-- TRAVEL SERVICES -->
+  <section class="section" id="travel-services">
+    <div class="section-title">
+      <h2>Our Travel Services</h2>
+      <p>Safe, comfortable and convenient travel options.</p>
+    </div>
+    <div class="card-grid">
+      <article class="card">
+        <img src="images/city images.jpg" alt="Local city trips">
+        <div class="card-body"><h3>Local Trips</h3><p>Convenient city travel.</p></div>
+      </article>
+      <article class="card">
+        <img src="images/mountain.jpg" alt="Outstation trips">
+        <div class="card-body"><h3>Outstation Trips</h3><p>Comfortable journeys.</p></div>
+      </article>
+      <article class="card">
+        <img src="images/airport.jpg" alt="Airport transfer">
+        <div class="card-body"><h3>Airport Transfer</h3><p>Pickup and drop service.</p></div>
+      </article>
+      <article class="card">
+        <img src="images/family.webp" alt="Family tour">
+        <div class="card-body"><h3>Family Tours</h3><p>Memorable family holidays.</p></div>
+      </article>
+      <article class="card">
+        <img src="images/varanasi.jpg" alt="Spiritual tour">
+        <div class="card-body"><h3>Spiritual Tours</h3><p>Religious and spiritual journeys.</p></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- VEHICLES -->
+  <section class="section light" id="vehicles">
+    <div class="section-title">
+      <h2>Our Vehicles</h2>
+      <p>Vehicles for individual, family and group travel.</p>
+    </div>
+    <div class="card-grid">
+      <article class="card">
+        <img src="images/dzire.jpg" alt="Maruti Dzire">
+        <div class="card-body"><h3>Maruti Dzire</h3><p>Comfortable Sedan</p></div>
+      </article>
+      <article class="card">
+        <img src="images/aura.avif" alt="Hyundai Aura">
+        <div class="card-body"><h3>Hyundai Aura</h3><p>Premium Sedan</p></div>
+      </article>
+      <article class="card">
+        <img src="images/ertiga.jpg" alt="Maruti Ertiga">
+        <div class="card-body"><h3>Maruti Ertiga</h3><p>Family Car</p></div>
+      </article>
+      <article class="card">
+        <img src="images/toyota innova.jpg" alt="Toyota Innova">
+        <div class="card-body"><h3>Toyota Innova</h3><p>Premium MUV</p></div>
+      </article>
+      <article class="card">
+        <img src="images/tempo traveller.jpg" alt="Tempo Traveller">
+        <div class="card-body"><h3>Tempo Traveller</h3><p>Group Travel</p></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- HVAC SERVICES -->
+  <section class="section" id="hvac-services">
+    <div class="section-title">
+      <h2>Our HVAC Services</h2>
+      <p>Comfortable indoor spaces throughout the year.</p>
+    </div>
+    <div class="card-grid">
+      <article class="card">
+        <img src="images/installation.jpg" alt="AC installation">
+        <div class="card-body"><h3>AC Installation</h3><p>Residential and commercial.</p></div>
+      </article>
+      <article class="card">
+        <img src="images/service.jpg" alt="AC repair">
+        <div class="card-body"><h3>AC Repair Service</h3><p>Repair and troubleshooting.</p></div>
+      </article>
+      <article class="card">
+        <img src="images/maintenance.jpg" alt="AC maintenance">
+        <div class="card-body"><h3>AC Maintenance</h3><p>Routine servicing.</p></div>
+      </article>
+      <article class="card">
+        <img src="images/duct.jpg" alt="Duct cleaning">
+        <div class="card-body"><h3>Duct Cleaning</h3><p>Air circulation cleaning.</p></div>
+      </article>
+      <article class="card">
+        <img src="images/vrv.jpg" alt="HVAC systems">
+        <div class="card-body"><h3>HVAC Solutions</h3><p>Home and business.</p></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- TOUR PACKAGES -->
+<section class="tour-packages" id="tour-packages">
+
+    <div class="section-heading">
+        <h2>POPULAR TOUR PACKAGES</h2>
+        <p>Explore Beautiful Destinations with Anuraj Fleet</p>
+    </div>
+
+    <div class="package-container">
+
+        <!-- Package 1 -->
+        <div class="package-card">
+            <img src="images/shimla.jpg" alt="Shimla Tour">
+            <h3>Shimla</h3>
+            <p>Enjoy beautiful mountains and cool weather.</p>
+            <a href="https://wa.me/919560594831?text=I%20want%20to%20book%20Shimla%20Tour"
+               target="_blank" rel="noopener">Book Now</a>
+        </div>
+
+        <!-- Package 2 -->
+        <div class="package-card">
+            <img src="images/goa.jpg" alt="Goa Tour">
+            <h3>Goa</h3>
+            <p>Enjoy beaches and a relaxing holiday.</p>
+            <a href="https://wa.me/919560594831?text=I%20want%20to%20book%20Goa%20Tour"
+               target="_blank" rel="noopener">Book Now</a>
+        </div>
+
+        <!-- Package 3 -->
+        <div class="package-card">
+            <img src="images/kerala.jpg" alt="Kerala Tour">
+            <h3>Kerala</h3>
+            <p>Explore greenery, backwaters and nature.</p>
+            <a href="https://wa.me/919560594831?text=I%20want%20to%20book%20Kerala%20Tour"
+               target="_blank" rel="noopener">Book Now</a>
+        </div>
+
+        <!-- Package 4 -->
+        <div class="package-card">
+            <img src="images/rajasthan.jpg" alt="Rajasthan Tour">
+            <h3>Rajasthan</h3>
+            <p>Discover royal forts and heritage places.</p>
+            <a href="https://wa.me/919560594831?text=I%20want%20to%20book%20Rajasthan%20Tour"
+               target="_blank" rel="noopener">Book Now</a>
+        </div>
+
+        <!-- Package 5 -->
+        <div class="package-card">
+            <img src="images/vrindavan.jpg" alt="Vrindavan Tour">
+            <h3>Vrindavan</h3>
+            <p>Visit temples and spiritual destinations.</p>
+            <a href="https://wa.me/919560594831?text=I%20want%20to%20book%20Vrindavan%20Tour"
+               target="_blank" rel="noopener">Book Now</a>
+        </div>
+
+        <!-- Package 6 -->
+        <div class="package-card">
+            <img src="images/kashmir.jpg" alt="Kashmir Tour">
+            <h3>Kashmir</h3>
+            <p>Experience beautiful valleys and mountains.</p>
+            <a href="https://wa.me/919560594831?text=I%20want%20to%20book%20Kashmir%20Tour"
+               target="_blank" rel="noopener">Book Now</a>
+        </div>
+
+    </div>
+</section>
+
+  <!-- GALLERY -->
+  <section class="section gallery-section" id="gallery">
+    <div class="section-title">
+      <h2>Our Gallery</h2>
+      <p>Travel moments and HVAC service highlights.</p>
+    </div>
+    <div class="gallery-slider">
+      <button class="gallery-arrow gallery-prev" aria-label="Previous gallery images">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+      <div class="gallery-viewport">
+        <div class="gallery-track">
+          <img src="images/somnath1.jpg" alt="Somnath trip">
+          <img src="images/urbania.jpg" alt="Urbania vehicle">
+          <img src="images/jodhpur.jpg" alt="Jodhpur destination">
+          <img src="images/chiller.jpg" alt="HVAC chiller">
+          <img src="images/cassette.jpg" alt="Cassette AC">
+        </div>
+      </div>
+      <button class="gallery-arrow gallery-next" aria-label="Next gallery images">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+    </div>
+  </section>
+</main>
+
+<!-- FOOTER AND CONTACT FORM -->
+<footer class="footer" id="contact">
+  <div class="footer-grid">
+    <div class="footer-col">
+      <div class="logo footer-logo">
+        <img src="images/logo.jpeg" alt="Anuraj Fleet Logo">
+        <div><h2>Anuraj Fleet</h2><small>Tour & Travels | HVAC Services</small></div>
+      </div>
+      <p><i class="fa-solid fa-phone"></i>
+        <a href="tel:9560594831">9560594831</a></p>
+      <p><i class="fa-solid fa-location-dot"></i>
+        D-5/316 Sangam Vihar, New Delhi - 110065</p>
+      <p><i class="fa-solid fa-location-dot"></i>
+        B-8/49, Krishna Nagar, Mathura, U.P. - 281001</p>
+
+      <div class="social-links">
+        <a href="https://www.facebook.com/share/1CJ3LPduSi/" class="social-link" aria-label="Facebook">
+          <i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.youtube.com/@AnurajfleetHVAC" class="social-link" aria-label="YouTube">
+          <i class="fa-brands fa-youtube"></i></a>
+        <a href="#" class="social-link" aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h3>Quick Links</h3>
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#travel-services">Tour & Travels</a>
+      <a href="#hvac-services">HVAC Services</a>
+      <a href="#gallery">Gallery</a>
+    </div>
+
+    <div class="footer-col">
+      <h3>Our Services</h3>
+      <a href="#travel-services">Local & Outstation Trips</a>
+      <a href="#travel-services">Airport Transfer</a>
+      <a href="#vehicles">Vehicle Rentals</a>
+      <a href="#hvac-services">AC Installation & Repair</a>
+      <a href="#hvac-services">AC Maintenance</a>
+    </div>
+
+    <div class="footer-col">
+      <h3>Send Us a Message</h3>
+      <p>फॉर्म भरें और WhatsApp पर संदेश भेजें।</p>
+
+      <form id="contactForm">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+
+        <label for="phone">Your Mobile Number</label>
+        <input type="tel" id="phone" placeholder="Mobile number"
+          inputmode="tel" pattern="[0-9+() -]{8,18}" required>
+
+        <label for="service">Select Service</label>
+        <select id="service" required>
+          <option value="">Choose a service</option>
+          <option>Tour & Travels</option>
+          <option>Airport Transfer</option>
+          <option>HVAC Installation</option>
+          <option>AC Repair / Service</option>
+          <option>AC Maintenance</option>
+          <option>Other</option>
+        </select>
+
+        <label for="message">Your Message</label>
+        <textarea id="message" rows="4"
+          placeholder="Write your requirements" required></textarea>
+
+        <button type="submit" class="btn whatsapp-btn">
+          <i class="fa-brands fa-whatsapp"></i> Send via WhatsApp
+        </button>
+        <p id="formNote" role="status"></p>
+      </form>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© <span id="year"></span> Anuraj Fleet. All rights reserved.</p>
+    <a href="#home">Back to Top ↑</a>
+  </div>
+</footer>
+
+<a class="floating-whatsapp"
+   href="https://wa.me/919560594831"
+   target="_blank" rel="noopener"
+   aria-label="Chat on WhatsApp">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+</body>
+</html>
